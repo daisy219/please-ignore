@@ -1,0 +1,23 @@
+{
+  "name": "wrong",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register",
+    "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/register": "^7.5.5",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "mocha": "^6.2.0"
+  }
+}
